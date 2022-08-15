@@ -33,3 +33,17 @@ function tinhGiaiThua() {
       dem= dem+1;
   }
   document.getElementById("ketQua3").innerHTML=output; }
+  //Cau4
+  function doiMau()
+            {
+                var divs = document.getElementsByClassName("div");
+                for (var i = 0; i < divs.length; i++){
+                    
+                    if ((i + 1) % 2 == 0){
+                        divs[i].style.background = "red";
+                    }
+                    else { 
+                        divs[i].style.background = "blue";
+                    }
+                }
+            }
